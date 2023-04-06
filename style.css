@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: black;
+
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+
+#login-screen {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+
+  margin-top: 200px;
+
+  text-align: center;
+}
+
+#e-mail, #password, #acessar :hover {
+  height: 20px;
+}
+
+#forgot, #sign-in {
+  color: black;
+}
+
+/* #remember-me :hover {
+
+}*/
+

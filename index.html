@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Screen</title>
+  </head>
+  <body>
+    <form id="login-screen" action="" method="post">
+      <h1>Login</h1>
+
+      <label for="e-mail">E-mail</label>
+      <input
+        type="email"
+        name="email"
+        id="e-mail"
+        placeholder="Digite seu e-mail"
+        size="25"
+        maxlength="30"
+        title="Digite seu e-mail"
+        tabindex="1"
+        autofocus
+        required
+      />
+      <br /><br />
+      <label for="password">Senha</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Digite sua senha"
+        size="25"
+        minlength="10"
+        maxlength="20"
+        title="Digite sua senha"
+        tabindex="2"
+        required
+      />
+      <br /><br />
+      <input
+        type="checkbox"
+        name="remember"
+        id="remember-me"
+        title="Lembrar de mim"
+        tabindex="3"
+      />
+      Lembrar de mim <br /><br />
+      <button id="acessar" type="submit" title="Acessar" tabindex="4">
+        Acessar
+      </button>
+      <br /><br />
+      <a id="forgot" href="" title="Esqueceu sua senha" tabindex="5">Esqueceu sua senha</a>
+      <br />
+      <a id="sign-in" href="" title="Cadastrar-se" tabindex="6">Cadastrar-se</a>
+    </form>
+  </body>
+</html>
