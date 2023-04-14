@@ -20,15 +20,17 @@ body {
   text-align: center;
 }
 
-#e-mail, #password, #acessar :hover {
+#e-mail,
+#password,
+#acessar :hover {
   height: 20px;
 }
 
-#forgot, #sign-in {
+#forgot,
+#sign-in {
   color: black;
 }
 
 /* #remember-me :hover {
 
 }*/
-
