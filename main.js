@@ -1,5 +1,5 @@
 function mostraAviso() {
-  alert("Seja bem vindo!")
+  alert("Carregando...")
 }
 
 window.onload = function () {
